@@ -1,3 +1,6 @@
+#pragma once
+#include <iostream>
+#include "DrawAPI.h"
 class Brick
 {
 public:

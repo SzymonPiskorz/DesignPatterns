@@ -38,8 +38,8 @@ void Game::HandleEvents()
     
 void Game::Update()
 {
-    std::cout << "Updating";
-    std::cout << std::endl;
+    //std::cout << "Updating";
+    //std::cout << std::endl;
 }
     
 void Game::Render()
@@ -52,7 +52,7 @@ void Game::Render()
     
 void Game::CleanUp()
 {
-    std::cout << "Cleaning Up";
-    std::cout << std::endl;
+    //std::cout << "Cleaning Up";
+    //std::cout << std::endl;
     SDL_DestroyWindow(window);
 }
